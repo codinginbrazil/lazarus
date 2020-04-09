@@ -6,9 +6,7 @@ Version: 0.5
 
 Nome: Wellington De Souza Silva
 
-Método : Selection Sort}
-
-// bug com dois valores altos ??? 
+Método : Selection Sort} 
 
 uses crt;
 
@@ -84,7 +82,7 @@ procedure repetir();
 var
 	i: integer;
 begin
-	for i:=MAX-1 downto 1 do 
+	for i:=MAX downto 1 do 
 	begin
 		kernel(vetor);
 		exibir(vetor);
