@@ -1,77 +1,16 @@
-# Ciência da Computação: Algoritmo e Estrutura de Dados
+# [Lazarus](https://www.lazarus-ide.org/)
 
-## Configuração de Ambiente
+Lazarus is a Delphi compatible cross-platform IDE for Rapid Application Development. 
+It has variety of components ready for use and a graphical form designer to easily create complex graphical user interfaces.
 
-### Pascal
-* Justificativa do nome: em homenagem ao matemático e físico Blaise Pascal
-* Objetivo: Ensino de programação
-* Origem: 1970
-* Criador: Niklaus Wirth
-* Programação: Estruturada
-* Paradigma: Estruturas de blocos
-* Fortemente tipada
-* Estaticamente tipada
-* Compilador: Free Pascal (fpc)
-* Extensão: `.pas`,`.pp`, `.inc`
-* Tipos de comentário:
-    * // := comenta uma linha
-    * { } := comenta todas as linha dentro das chaves 
 
-### Instalação do Compilador do [Free Pascal](https://www.freepascal.org/download.html)
-#### Distribuição Linux
+## History
+Lazarus was started in February of 1999. It was primarily founded by three individuals:
 
-* Ubuntu
-~~~bash
-sudo apt install fpc
-~~~
+* Cliff Baeseman
+* Shane Miller
+* Michael A. Hess
 
-* Fedora
-~~~bash
-sudo dnf install fpc
-~~~
+All three had attempted to get involved with the Megido project which dissolved. In frustration they started the Lazarus project. It has had a steady growth of supporters and developers during the following years. The founders are not involved with the project any more.
 
-### Compilar e Executar Programas
-~~~bash
-fp nome_do_programa.pas
-~~~
-
-### [Visual Studio Code](https://code.visualstudio.com/): Plugins (Ctrl+P)
-    * ext install spywhere.guides
-    * ext install eamodio.gitlens
-    * ext install christian-kohler.path-intellisense
-    * ext install vscode-icons-team.vscode-icons	
-
-### [Git](https://git-scm.com/)
-#### Padronização para Mensagens de Commit
-* `feat`: um novo recurso
-* `fix`: uma correção de bug
-* `docs`: alterações na documentação
-* `style`: formatação, falta de dois pontos, etc; nenhuma mudança de código
-* `refactor`: refatoração do código de produção
-* `test`: adicionando testes, teste de refatoração; nenhuma mudança de código de produção
-* `chore`: atualizar tarefas de compilação, configurações do gerenciador de pacotes, etc; nenhuma mudança de código de produção
-
----
-
-## Fases
-
-### Algoritmo
-#### Introdução 
-
-- [x] Hello World!
-- [x] Procedimento
-- [X] Tipos de váriaveis
-    * *Númerico* 
-        * integer
-        * real
-    * *Texto*
-        * char
-        * string
-    * *Lógico*
-- [X] Constante
-- [X] Estrutura de seleção
-- [X] Laço de repetição
-- [X] Função
-- [ ] Vetor
-- [ ] Matriz
-
+The next oldest member of the team is Marc Weustink. He got involved with the project in Aug. 1999. Following him is Mattias Gaertner who got involved in Sept. 2000. Both of them have been the major contributors to the core of what makes Lazarus tick
